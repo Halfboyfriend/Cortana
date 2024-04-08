@@ -46,5 +46,13 @@ i{
   .list__content{
     display: none;
   }
+
+  .content__text h2{
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 1.8cm;
+    text-align: center;
+  }
+  
   
 }
