@@ -29,7 +29,6 @@ li{
 .content__text h2{
   font-size: 45px;
   font-weight: 900;
-  line-height: 1.8cm;
   max-width: 500px;
   text-align: center;
 }
@@ -48,11 +47,22 @@ i{
   }
 
   .content__text h2{
-    font-size: 25px;
+    margin: auto;
+    font-size: 30px;
     font-weight: 900;
-    line-height: 1.8cm;
+    max-width: 350px;
+  }
+  .content__image{
     text-align: center;
   }
+
+  .content__image img{
+    margin-top: 20px;
+    width: 250px;
+    text-align: center;
+
+  }
+  
   
   
 }
