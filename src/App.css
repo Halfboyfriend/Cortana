@@ -1,3 +1,44 @@
+.landing__page{
+  background-image: url('https://res.cloudinary.com/dkpo6c3me/image/upload/v1712618075/bg_vim8ge.png');
+  background-size: cover;
+  padding: 50px 50px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.landing__page .content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+
+
+.landing__page h1{
+  font-size: 11vw;
+  margin-top: 70px;
+}
+
+.landing__page span h1{
+  font-size: 7vw;
+  margin-top: 100px;
+}
+
+.content__image img{
+  font-size: inherit;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  margin: 20px;
+  border: none;
+  border-radius: 50%;
+  
+}
+
+
 ul{
   list-style: none;
   padding: 0;
@@ -13,56 +54,24 @@ a{
   color: #fff;
 }
 
-li{
-  display: inline;
-  margin: 10px;
-}
 
-.content{
-  width: 100%; /* Ensure the container has a width */
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 20px;
-
-}
-
-.content__text h2{
-  font-size: 45px;
-  font-weight: 900;
-  max-width: 500px;
-  text-align: center;
-}
-
-.content__image{
-  max-width: 400px;
-}
 
 i{
   color: rgb(4, 4, 40);
 }
 
 @media screen and (max-width: 600px) {
-  .list__content{
-    display: none;
+  .landing__page h1{
+    font-size: 20vw;
+    margin-top: 0;
+    text-align: start;
   }
 
-  .content__text h2{
-    margin: auto;
-    font-size: 30px;
-    font-weight: 900;
-    width: 100%;
+  .landing__page span h1{
+    font-size: 15vw;
+    margin-top: 0;
+    text-align: end;
   }
-  .content__image{
-    text-align: center;
-  }
-
-  .content__image img{
-    margin-top: 20px;
-    width: 250px;
-    text-align: center;
-
-  }
-  
   
   
 }
