@@ -50,7 +50,7 @@ i{
     margin: auto;
     font-size: 30px;
     font-weight: 900;
-    max-width: 350px;
+    width: 100%;
   }
   .content__image{
     text-align: center;
