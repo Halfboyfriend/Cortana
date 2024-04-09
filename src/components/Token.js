@@ -4,11 +4,11 @@ import { VictoryPie } from 'victory';
 
 const Tokenomics = () => {
   const data = [
-    { x: 'Total Supply', y: 25 },
-    { x: 'Reserve', y: 15 },
-    { x: 'Team & Advisors', y: 10},
-    { x: 'Community', y: 5 },
-    { x: 'Ecosystem Fund', y: 10 },
+    { x: 'Token Presale', y: 1 },
+    { x: 'Reserve', y: 70},
+    { x: 'Team & Advisors', y: 13.9},
+    { x: 'Community', y: 1.15 },
+    { x: 'Ecosystem Fund', y: 1 },
   ];
 
   return (
