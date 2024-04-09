@@ -158,8 +158,8 @@ i:hover{
   
   }
 
-  .intro__vide{
-    width: 300px;
+  .intro__vide video{
+    max-width: 500px;
   }
   
   
