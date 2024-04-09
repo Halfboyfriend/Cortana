@@ -29,16 +29,14 @@ function Home() {
 
       <section className="container py-5">
         <p className="content__body">
-          Welcome to our innovative project that seeks to revolutionize the
-          gaming industry by bringing gamers into the exciting world of
-          cryptocurrency. Our platform aims to bridge the gap between gamers and
-          crypto, offering a seamless and rewarding experience for all. One of
-          the key aspects of our project is the integration of BASE, a
-          cryptocurrency backed by ETH, renowned for its high value and low
-          transaction fees. By joining our platform, gamers can not only enjoy
-          their favorite games but also delve into the lucrative realm of
-          crypto, potentially enhancing their gaming experience and financial
-          portfolio.
+          CORTANA is an innovative project aiming to revolutionize the gaming
+          industry by introducing gamers to the world of cryptocurrency. The
+          platform bridges the gap between gamers and crypto, offering a
+          seamless experience. With the integration of BASE, a cryptocurrency
+          backed by ETH known for its high value and low fees, CORTANA allows
+          gamers to enjoy their favorite games while exploring the lucrative
+          realm of crypto, potentially enhancing their gaming experience and
+          financial portfolio.
         </p>
       </section>
 
@@ -70,15 +68,13 @@ function Home() {
             "Why Choose Cortana? – Unleash Your Unique Voice in the Crypto
             Landscape"
           </h1>
-
-        
         </div>
         <div className="text-center mt-5 intro__vide">
-         <video autoPlay loop>
+          <video autoPlay loop>
             <source src={intro} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-         </div>
+        </div>
       </section>
 
       <section className="container py-5">
