@@ -12,6 +12,7 @@ import base from "../images/base.png";
 import bs from "../images/baseLogo.jpg";
 import paper from "../images/paper.png";
 import MyTimelineComponent from "../components/TimeLine";
+import Tokenomics from "../components/Token"
 
 function Home() {
   return (
@@ -141,6 +142,12 @@ function Home() {
 
       {/* TOKENOMICS */}
 
+      <section className="container py-5">
+
+        <Tokenomics/>
+
+      </section>
+
       {/* ROADMAP */}
 
       <section className="container py-5">
@@ -234,7 +241,7 @@ function Home() {
             >
               <div className="p-5">
                 <div class="modal-header">
-                  <h1 class="modal-title"> Cortana Coin White Paper</h1>
+                  <h2 class="modal-title"> Cortana Coin White Paper</h2>
                   <button
                     type="button"
                     class="btn-close"
