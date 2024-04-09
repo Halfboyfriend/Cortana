@@ -107,15 +107,21 @@ function Home() {
           </div>
 
           <div className="content">
+          <a href="https://basescan.org/address/0xCCC7E9B7a1E2Fa193683f23e23C495eCde3C4DB8" target="_blank" rel="noreferrer">
             <Button fluid>
               Explorer
             </Button>
+            </a>
 
             <br/>
 
+            <a href="https://app.uniswap.org/swap?outputCurrency=0xCCC7E9B7a1E2Fa193683f23e23C495eCde3C4DB8&chain=base" target="_blank" rel="noreferrer">
             <Button fluid primary>
               Buy Now
             </Button>
+            </a>
+
+
           </div>
 
         </div>

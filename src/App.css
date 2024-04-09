@@ -148,6 +148,8 @@ i:hover {
 }
 
 .trade .content {
+  max-width: 600px;
+  margin: auto;
   border: 2px solid grey;
   border-radius: 20px;
   padding: 20px;
@@ -208,7 +210,7 @@ i:hover {
   }
 
   .about h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 20px;
     text-align: center;
 
