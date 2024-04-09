@@ -7,9 +7,8 @@
   justify-content: center;
   width: 100%;
 }
-body{
-  font-family: 'Game Over', cursive;
-}
+
+
 p{
   font-size: 15px;
   display: block;
@@ -68,7 +67,7 @@ p{
 .content__body {
   margin: 20px;
   max-width: 500px;
-  font-family: 'Game Over', cursive;
+  font-family: 'Game Over';
   font-size: 18px;
   font-weight: bold;
 }
