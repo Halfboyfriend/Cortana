@@ -133,6 +133,26 @@ i:hover{
   width: 100%;
 }
 
+.trade .content p{
+  font-size: 12px;
+}
+
+.trade .content{
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.trade img{
+
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 100px;
+  margin-right: 20px;
+
+}
+
 @media screen and (max-width: 600px) {
   .landing__page h1{
     font-size: 20vw;
@@ -163,6 +183,8 @@ i:hover{
   border-radius: 10px;
 
 }
+
+
   
   i{
     font-size: 25px;
@@ -197,7 +219,29 @@ i:hover{
     grid-gap: 20px;
     margin: 20px;
   }
+
+  .trade h1{
+    font-size: 30px;
+    font-family: 'Game Over', cursive;
+  }
+  .trade .content p{
+    font-size: 12px;
+  }
   
+  .trade .content{
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .trade img{
+  
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
+    margin-right: 20px;
+  
+  }
   
   
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "semantic-ui-react";
+import { Button } from "semantic-ui-react";
 import "../App.css";
 import logo from "../carta.jpg";
 import jup from "../images/jup.jpg";
@@ -9,6 +9,7 @@ import tg from "../images/tg-logo.png";
 import x from "../images/x-logo.png";
 import intro from "../images/intro.mp4";
 import base from "../images/base.png";
+import bs from "../images/baseLogo.jpg";
 
 function Home() {
   return (
@@ -91,10 +92,43 @@ function Home() {
         </div>
       </section>
 
+
+      <section className="container">
+        <div className="trade">
+
+          <h1>Trade Cortana</h1>
+
+          <div className="d-flex content mt-5">
+            <img src={bs} alt="." />
+            <div>
+            <h3>Base</h3>
+            <p>0xCCC7E9B7a1E2Fa193683f23e23C495eCde3C4DB8</p>
+            </div>
+          </div>
+
+          <div className="content">
+            <Button fluid>
+              Explorer
+            </Button>
+
+            <br/>
+
+            <Button fluid primary>
+              Buy Now
+            </Button>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
       <section className="container py-5 mt-5">
         <div className="about">
           <h1 className="text-center">
-            "Cortana Social Network - Your Premier Gateway to the Crypto World!"
+            "Cortana Social Network - Your Based AI in Crypto World!"
           </h1>
 
           <p className="text-center mt-5">
@@ -140,7 +174,7 @@ function Home() {
         </div>
       </section>
 
-      <section className=" py-5">
+      <section className="py-5">
         <hr />
 
         <footer className="container text-center">
