@@ -73,7 +73,7 @@ function Home() {
           </h1>
         </div>
         <div className="text-center mt-5 intro__vide">
-          <video autoPlay loop muted>
+          <video autoPlay loop>
             <source src={intro} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
