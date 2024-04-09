@@ -44,11 +44,11 @@ function Home() {
 
       <section className="container py-1">
         <div className="socials">
-          <a href="/">
+          <a href="https://x.com/CortanaCoin?t=4GFBZgpW0JxqvxbLXPh2Ww&s=08">
             {" "}
             <img src={x} alt="4" />
           </a>
-          <a href="/">
+          <a href="https://t.me/+Q5M_PO8Tfms2ZDBh">
             <img src={tg} alt="4" />
           </a>
           <a href="/">
@@ -83,11 +83,11 @@ function Home() {
 
       <section className="container py-5">
         <div className="socials">
-          <a href="/">
+          <a href="https://x.com/CortanaCoin?t=4GFBZgpW0JxqvxbLXPh2Ww&s=08">
             {" "}
             <img src={x} alt="4" />
           </a>
-          <a href="/">
+          <a href="https://t.me/+Q5M_PO8Tfms2ZDBh">
             <img src={tg} alt="4" />
           </a>
           <a href="/">
