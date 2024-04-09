@@ -128,7 +128,7 @@ function Home() {
       <section className="container py-5 mt-5">
         <div className="about">
           <h1 className="text-center">
-            "Cortana Social Network - Your Based AI in Crypto World!"
+            "Cortana Social Network - Your Based AI in Crypto Space!"
           </h1>
 
           <p className="text-center mt-5">

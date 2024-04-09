@@ -1,4 +1,6 @@
-.landing__page{
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@800&family=Roboto+Slab:wght@100..900&display=swap');
+
+.landing__page {
   background-image: url('https://res.cloudinary.com/dkpo6c3me/image/upload/v1712618075/bg_vim8ge.png');
   background-size: cover;
   padding: 50px 50px;
@@ -9,14 +11,14 @@
 }
 
 
-p{
+p {
   font-size: 15px;
   display: block;
- line-height: 1.9em;
+  line-height: 1.9em;
   unicode-bidi: isolate;
 }
 
-.int__welc{
+.int__welc {
   display: flex;
 
   justify-content: center;
@@ -24,7 +26,7 @@ p{
   margin: 20px;
 }
 
-.int__welc img{
+.int__welc img {
   width: 300px;
   border: none;
   border-radius: 20%;
@@ -32,7 +34,7 @@ p{
 
 }
 
-.landing__page .content{
+.landing__page .content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   text-align: center;
@@ -41,19 +43,23 @@ p{
 }
 
 
-.landing__page h1{
+.landing__page h1 {
   font-size: 11vw;
   margin-top: 70px;
-  font-family: 'Game Over', cursive;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-.landing__page span h1{
+.landing__page span h1 {
   font-size: 7vw;
   margin-top: 100px;
-  font-family: 'Game Over', cursive;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-.content__image img{
+.content__image img {
   font-size: inherit;
   align-items: center;
   justify-content: center;
@@ -61,30 +67,33 @@ p{
   margin: 20px;
   border: none;
   border-radius: 50%;
-  
+
 }
 
 .content__body {
   margin: 20px;
   max-width: 500px;
-  font-family: 'Press Start 2P', 'Roboto';
-  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-weight: bold;
 }
 
-.about{
+.about {
   max-width: 900px;
   margin: auto;
 }
-.about h1{
+
+.about h1 {
   font-size: 80px;
   margin-top: 50px;
   text-align: center;
-  font-family: 'Game Over', cursive;
-
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-ul{
+ul {
   list-style: none;
   padding: 0;
   margin-top: -35px;
@@ -94,25 +103,25 @@ ul{
 
 }
 
-a{
+a {
   text-decoration: none;
   color: #fff;
 }
 
 
 
-i{
+i {
   font-size: 35px;
   margin-right: 20px;
 }
 
-i:hover{
+i:hover {
   will-change: auto;
   transform: translate(0%, -11.6623%) translate3d(0px, 0px, 0px);
 }
 
 
-.socials{
+.socials {
   border: 2px solid rgba(255, 255, 255, 0.16);
   padding: 20px 50px;
   border-radius: 100px;
@@ -122,28 +131,29 @@ i:hover{
   backdrop-filter: blur(13.5px);
 
 }
-.socials img{
+
+.socials img {
   width: 60px;
   border: none;
   border-radius: 10px;
 
 }
 
-.intro__vide{
+.intro__vide {
   width: 100%;
 }
 
-.trade .content p{
+.trade .content p {
   font-size: 12px;
 }
 
-.trade .content{
+.trade .content {
   border: 2px solid grey;
   border-radius: 20px;
   padding: 20px;
 }
 
-.trade img{
+.trade img {
 
   width: 30px;
   height: 30px;
@@ -154,65 +164,69 @@ i:hover{
 }
 
 @media screen and (max-width: 600px) {
-  .landing__page h1{
+  .landing__page h1 {
     font-size: 20vw;
     margin-top: 0;
     text-align: start;
   }
 
-  .landing__page span h1{
+  .landing__page span h1 {
     font-size: 15vw;
     margin-top: 0;
     text-align: end;
   }
 
-  
-.socials{
-  border: 2px solid rgba(255, 255, 255, 0.16);
-  padding: 20px 50px;
-  border-radius: 100px;
-  display: flex;
-  justify-content: space-between;
-  background: linear-gradient(91.17deg, rgba(255, 255, 255, 0.16) 5.66%, rgba(255, 255, 255, 0.03) 101.05%);
-  backdrop-filter: blur(13.5px);
 
-}
-.socials img{
-  width: 25px;
-  border: none;
-  border-radius: 10px;
+  .socials {
+    border: 2px solid rgba(255, 255, 255, 0.16);
+    padding: 20px 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(91.17deg, rgba(255, 255, 255, 0.16) 5.66%, rgba(255, 255, 255, 0.03) 101.05%);
+    backdrop-filter: blur(13.5px);
 
-}
+  }
+
+  .socials img {
+    width: 25px;
+    border: none;
+    border-radius: 10px;
+
+  }
 
 
-  
-  i{
+
+  i {
     font-size: 25px;
     margin-right: 20px;
   }
-  .about{
+
+  .about {
     max-width: 500px;
     margin: auto;
   }
-  .about h1{
+
+  .about h1 {
     font-size: 40px;
     margin-top: 20px;
     text-align: center;
-  
+
   }
 
-  .intro__vide video{
+  .intro__vide video {
     max-width: 350px;
   }
-  
-  .int__welc img{
+
+  .int__welc img {
     width: 100px;
     border: none;
     border-radius: 20%;
     margin-right: 50px;
-  
+
   }
-  .int__welc{
+
+  .int__welc {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: center;
@@ -220,29 +234,32 @@ i:hover{
     margin: 20px;
   }
 
-  .trade h1{
+  .trade h1 {
     font-size: 30px;
-    font-family: 'Game Over', cursive;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
   }
-  .trade .content p{
+
+  .trade .content p {
     font-size: 10px;
     width: 10px;
   }
-  
-  .trade .content{
+
+  .trade .content {
     max-width: 400px;
     margin: auto;
   }
-  
-  .trade img{
-  
+
+  .trade img {
+
     width: 30px;
     height: 30px;
     border: none;
     border-radius: 100px;
     margin-right: 20px;
-  
+
   }
-  
-  
+
+
 }
