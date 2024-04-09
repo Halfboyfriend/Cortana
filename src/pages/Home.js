@@ -29,7 +29,6 @@ function Home() {
       </section>
 
       <section className="container int__welc py-5">
-
         <img src={base} alt="base" className="img-fluid" />
         <p className="content__body">
           CORTANA is an innovative project aiming to revolutionize the gaming
@@ -45,18 +44,30 @@ function Home() {
 
       <section className="container py-1">
         <div className="socials">
-          <a href="https://x.com/CortanaCoin?t=4GFBZgpW0JxqvxbLXPh2Ww&s=08" target="_blank" rel="noreferrer">
+          <a
+            href="https://x.com/CortanaCoin?t=4GFBZgpW0JxqvxbLXPh2Ww&s=08"
+            target="_blank"
+            rel="noreferrer"
+          >
             {" "}
             <img src={x} alt="4" />
           </a>
-          <a href="https://t.me/+Q5M_PO8Tfms2ZDBh" target="_blank" rel="noreferrer">
+          <a
+            href="https://t.me/+Q5M_PO8Tfms2ZDBh"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={tg} alt="4" />
           </a>
           <a href="/" target="_blank" rel="noreferrer">
             <img src={discord} alt="4" />
           </a>
 
-          <a href="https://dexscreener.com/base/0x913ee36000bfe0ba10043a9ff5ed0d4680d35962" target="_blank" rel="noreferrer" >
+          <a
+            href="https://dexscreener.com/base/0x913ee36000bfe0ba10043a9ff5ed0d4680d35962"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={dex} alt="4" />
           </a>
           <a href="/" target="_blank" rel="noreferrer">
@@ -80,26 +91,64 @@ function Home() {
         </div>
       </section>
 
-      <section className="container py-5">
+      <section className="container py-5 mt-5">
+        <div className="about">
+          <h1 className="text-center">
+            "Cortana Social Network - Your Premier Gateway to the Crypto World!"
+          </h1>
+
+          <p className="text-center mt-5">
+            Want to stay updated with the latest news? Join our social media
+            communities! With a simple click, you can join the Cortana
+            community: Follow us on Twitter for regular updates or join our
+            Telegram channel for engaging discussions.
+          </p>
+        </div>
+      </section>
+
+      <section className="container">
         <div className="socials">
-          <a href="https://x.com/CortanaCoin?t=4GFBZgpW0JxqvxbLXPh2Ww&s=08" target="_blank" rel="noreferrer">
+          <a
+            href="https://x.com/CortanaCoin?t=4GFBZgpW0JxqvxbLXPh2Ww&s=08"
+            target="_blank"
+            rel="noreferrer"
+          >
             {" "}
             <img src={x} alt="4" />
           </a>
-          <a href="https://t.me/+Q5M_PO8Tfms2ZDBh" target="_blank" rel="noreferrer">
+          <a
+            href="https://t.me/+Q5M_PO8Tfms2ZDBh"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={tg} alt="4" />
           </a>
           <a href="/" target="_blank" rel="noreferrer">
             <img src={discord} alt="4" />
           </a>
 
-          <a href="https://dexscreener.com/base/0x913ee36000bfe0ba10043a9ff5ed0d4680d35962" target="_blank" rel="noreferrer">
+          <a
+            href="https://dexscreener.com/base/0x913ee36000bfe0ba10043a9ff5ed0d4680d35962"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={dex} alt="4" />
           </a>
           <a href="/" target="_blank" rel="noreferrer">
             <img src={jup} alt="4" />
           </a>
         </div>
+      </section>
+
+      <section className=" py-5">
+        <hr />
+
+        <footer className="container text-center">
+          <p>
+            © 2024 Cortana- Leading the AI in Crypto. All rights reserved, but
+            we offer free belly rubs!
+          </p>
+        </footer>
       </section>
     </>
   );
