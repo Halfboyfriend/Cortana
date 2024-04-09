@@ -7,15 +7,30 @@
   justify-content: center;
   width: 100%;
 }
-
+body{
+  font-family: 'Game Over', cursive;
+}
 p{
-  font-size: 18px;
+  font-size: 15px;
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+ line-height: 1.9em;
   unicode-bidi: isolate;
+}
+
+.int__welc{
+  display: flex;
+
+  justify-content: center;
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.int__welc img{
+  width: 200px;
+  border: none;
+  border-radius: 20%;
+  margin-right: 50px;
+
 }
 
 .landing__page .content{
@@ -30,11 +45,13 @@ p{
 .landing__page h1{
   font-size: 11vw;
   margin-top: 70px;
+  font-family: 'Game Over', cursive;
 }
 
 .landing__page span h1{
   font-size: 7vw;
   margin-top: 100px;
+  font-family: 'Game Over', cursive;
 }
 
 .content__image img{
@@ -48,8 +65,12 @@ p{
   
 }
 
-.content__body{
+.content__body {
+  margin: 20px;
   max-width: 500px;
+  font-family: 'Game Over', cursive;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .about{
@@ -60,6 +81,7 @@ p{
   font-size: 80px;
   margin-top: 50px;
   text-align: center;
+  font-family: 'Game Over', cursive;
 
 }
 
@@ -162,7 +184,20 @@ i:hover{
     max-width: 350px;
   }
   
+  .int__welc img{
+    width: 100px;
+    border: none;
+    border-radius: 20%;
+    margin-right: 50px;
   
+  }
+  .int__welc{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    grid-gap: 20px;
+    margin: 20px;
+  }
   
   
   
