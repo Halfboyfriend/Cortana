@@ -74,7 +74,11 @@ function Home() {
           >
             <img src={dex} alt="4" />
           </a>
-          <a href="https://www.dextools.io/app/en/base/pair-explorer/0x913ee36000bfe0ba10043a9ff5ed0d4680d35962?t=1712774600718" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.dextools.io/app/en/base/pair-explorer/0x913ee36000bfe0ba10043a9ff5ed0d4680d35962?t=1712774600718"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={jup} alt="4" />
           </a>
 
@@ -199,7 +203,11 @@ function Home() {
           >
             <img src={dex} alt="4" />
           </a>
-          <a href="https://www.dextools.io/app/en/base/pair-explorer/0x913ee36000bfe0ba10043a9ff5ed0d4680d35962?t=1712774600718" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.dextools.io/app/en/base/pair-explorer/0x913ee36000bfe0ba10043a9ff5ed0d4680d35962?t=1712774600718"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={jup} alt="4" />
           </a>
           <a
@@ -216,10 +224,41 @@ function Home() {
       <section className="py-5">
         <hr />
 
-        <footer className="container text-center">
+        <footer className="container text-start">
+          <h3>Disclaimer</h3>
+
+          <p> Copyright © 2024 Cortana Coin. All rights reserved.</p>
           <p>
-          Copyright © 2024 Cortana Coin. All rights reserved.
+            Cortana Coin is a  cryptocurrency project developed independently
+            and is not affiliated with or endorsed by Microsoft Corporation or
+            any of its subsidiaries.
           </p>
+
+          <p>
+            {" "}
+            The name "Cortana" is used solely for the purposes of branding and
+            does not imply any association with Microsoft's products or
+            services.{" "}
+          </p>
+
+          <p>
+            Any use of the name "Cortana" in connection with Cortana Coin is
+            purely coincidental and does not imply endorsement, sponsorship, or
+            partnership by Microsoft Corporation. All content, including but not
+            limited to text, graphics, logos, images, and software, on the
+            Cortana Coin website, white paper, and other official channels is
+            the property of Cortana Coin unless otherwise stated. Reproduction
+            or distribution of any content without prior written permission from
+            Cortana Coin is strictly prohibited.
+          </p>
+
+          <p>
+            {" "}
+            For inquiries regarding the use of Cortana Coin's intellectual
+            property or to report any unauthorized use, please contact us at
+            mevrrick@cortanacoin.com.
+          </p>
+          {/* <p>Copyright © 2024 Cortana Coin. All rights reserved.</p> */}
         </footer>
       </section>
 
