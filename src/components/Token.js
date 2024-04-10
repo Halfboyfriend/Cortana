@@ -6,9 +6,10 @@ const Tokenomics = () => {
   const data = [
     { x: 'Token Presale', y: 1 },
     { x: 'Reserve', y: 70},
-    { x: 'Team & Advisors', y: 13.9},
     { x: 'Community', y: 1.15 },
-    { x: 'Ecosystem Fund', y: 1 },
+    { x: 'Ecosystem', y: 1 },
+    { x: 'Team & Advisors', y: 13.9},
+
   ];
 
   return (
@@ -23,9 +24,11 @@ const Tokenomics = () => {
             colorScale={['#6B46C1', '#F56565', '#38B2AC', '#ED8936', '#fff']} // Example colors, adjust as needed
             innerRadius={70} // Adjust the size of the pie chart here
             padding={70} // Adjust the padding here
+            // labelRadius={({ innerRadius }) => innerRadius + 10} // Distance of labels from the center
+            labels={({ datum }) => `${datum.x} ${Math.round(datum.y)}%`}
             style={{
               labels: {
-                fontSize: 8,
+                fontSize: 10,
                 fill: 'white',
               },
             }}
