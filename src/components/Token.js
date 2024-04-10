@@ -15,7 +15,7 @@ const Tokenomics = () => {
   return (
     <Container maxW="xl" mt={0} mb={0}>
       <Heading as="h2" size="xl" textAlign="center" mb={0}>
-        <h3>Tokenomics</h3>
+        <h2>Tokenomics</h2>
       </Heading>
       <Grid templateColumns="repeat(auto-fit, minmax(200px, 1fr))" gap={0}>
         <Box p={6} boxShadow="lg">
