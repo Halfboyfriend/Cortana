@@ -8,7 +8,7 @@ const Tokenomics = () => {
     { x: 'Community', y: 15 },
     { x: 'Reserve', y: 70},
     { x: 'Ecosystem', y: 1 },
-    { x: 'Team & Advisors', y: 13.9},
+    { x: 'Team & Advisors', y: 13},
 
   ];
 
