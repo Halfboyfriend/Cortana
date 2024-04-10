@@ -74,7 +74,7 @@ function Home() {
           >
             <img src={dex} alt="4" />
           </a>
-          <a href="/" target="_blank" rel="noreferrer">
+          <a href="https://www.dextools.io/app/en/base/pair-explorer/0x913ee36000bfe0ba10043a9ff5ed0d4680d35962?t=1712774600718" target="_blank" rel="noreferrer">
             <img src={jup} alt="4" />
           </a>
 
@@ -199,7 +199,7 @@ function Home() {
           >
             <img src={dex} alt="4" />
           </a>
-          <a href="/" target="_blank" rel="noreferrer">
+          <a href="https://www.dextools.io/app/en/base/pair-explorer/0x913ee36000bfe0ba10043a9ff5ed0d4680d35962?t=1712774600718" target="_blank" rel="noreferrer">
             <img src={jup} alt="4" />
           </a>
           <a
@@ -218,8 +218,7 @@ function Home() {
 
         <footer className="container text-center">
           <p>
-            © 2024 Cortana- Leading the AI in Crypto. All rights reserved, but
-            we offer free belly rubs!
+          Copyright © 2024 Cortana Coin. All rights reserved.
           </p>
         </footer>
       </section>
@@ -289,7 +288,8 @@ function Home() {
                       floor price of the cryptocurrency. A percentage of the
                       total supply will be held in reserve to ensure that the
                       floor price remains stable, facilitate controlled token
-                      burns, and for listing on centralized exchanges (CEXs).
+                      burns, Marketing campaigns, and for listing on centralized
+                      exchanges (CEXs).
                     </li>
 
                     <li>

@@ -24,7 +24,6 @@ const Tokenomics = () => {
             colorScale={['#6B46C1', '#F56565', '#38B2AC', '#ED8936', '#fff']} // Example colors, adjust as needed
             innerRadius={70} // Adjust the size of the pie chart here
             padding={70} // Adjust the padding here
-            // labelRadius={({ innerRadius }) => innerRadius + 10} // Distance of labels from the center
             labels={({ datum }) => `${datum.x} ${Math.round(datum.y)}%`}
             style={{
               labels: {
