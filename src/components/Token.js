@@ -5,8 +5,8 @@ import { VictoryPie } from 'victory';
 const Tokenomics = () => {
   const data = [
     { x: 'Token Presale', y: 1 },
-    { x: 'Reserve', y: 70},
     { x: 'Community', y: 15 },
+    { x: 'Reserve', y: 70},
     { x: 'Ecosystem', y: 1 },
     { x: 'Team & Advisors', y: 13.9},
 
