@@ -225,7 +225,7 @@ function Home() {
         <hr />
 
         <footer className="container text-start">
-          <h3>Disclaimer</h3>
+          <h2>Disclaimer</h2>
 
           <p> Copyright © 2024 Cortana Coin. All rights reserved.</p>
           <p>
