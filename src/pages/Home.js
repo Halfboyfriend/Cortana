@@ -12,7 +12,7 @@ import base from "../images/base.png";
 import bs from "../images/baseLogo.jpg";
 import paper from "../images/paper.png";
 import MyTimelineComponent from "../components/TimeLine";
-import Tokenomics from "../components/Token"
+import Tokenomics from "../components/Token";
 
 function Home() {
   return (
@@ -143,9 +143,7 @@ function Home() {
       {/* TOKENOMICS */}
 
       <section className="container py-5">
-
-        <Tokenomics/>
-
+        <Tokenomics />
       </section>
 
       {/* ROADMAP */}
@@ -288,7 +286,10 @@ function Home() {
                       reserve mechanism to maintain price stability and enhance
                       value over time. Initially, 70% of the total coin supply
                       is held in reserve, serving as a foundation to support the
-                      floor price of the cryptocurrency.
+                      floor price of the cryptocurrency. A percentage of the
+                      total supply will be held in reserve to ensure that the
+                      floor price remains stable, facilitate controlled token
+                      burns, and for listing on centralized exchanges (CEXs).
                     </li>
 
                     <li>
