@@ -229,7 +229,7 @@ function Home() {
 
           <p> Copyright © 2024 Cortana Coin. All rights reserved.</p>
           <p>
-            Cortana Coin is a  cryptocurrency project developed independently
+            Cortana Coin is a cryptocurrency project developed independently
             and is not affiliated with or endorsed by Microsoft Corporation or
             any of its subsidiaries.
           </p>
